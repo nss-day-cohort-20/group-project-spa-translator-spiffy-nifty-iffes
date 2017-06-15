@@ -13,15 +13,14 @@ var translator = (function(language) {
 // var sum = 0;
 // var obj = {prop1: 5, prop2: 13, prop3: 8};
 
-		language.printItalian = function() {
-			let output = document.getElementById("translatedText");
+		language.printItalian = function(word) {
+				let output = document.getElementById("translatedText");
 
-		for (var word in italian) {
-		  output.innerHTML += `<p>${italian[word].value}</p>`;
-		  console.log(italian);
+			italian.forEach(function(word){
+				output.innerHTML += `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
+			})
+
 		};
-};
-
 
 	// language.printItalian = function(){
 	// 		italian.forEach(function(word){
