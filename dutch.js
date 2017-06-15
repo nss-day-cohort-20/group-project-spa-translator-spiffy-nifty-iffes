@@ -14,7 +14,10 @@ var translator = (function(language) {
 		dutch.forEach(function(word){
 			output.innerHTML = `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
 		})
+	};
 
+	language.getDutch = function() {
+		return dutch;
 	};
 
 	 return language;
