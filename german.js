@@ -9,10 +9,6 @@ var translator = (function(language) {
 		}
 	];
 
-	// console.log('italian', italian);
-// var sum = 0;
-// var obj = {prop1: 5, prop2: 13, prop3: 8};
-
 		language.printGerman = function(word) {
 				let output = document.getElementById("translatedText");
 
@@ -22,12 +18,11 @@ var translator = (function(language) {
 
 		};
 
-	// language.printItalian = function(){
-	// 		italian.forEach(function(word){
-	// 			document.getElementById("translatedText").innerHTML += `${word.merry} `;
-	// 	})
-	//  }
+		language.getGerman = function() {
+        return german;
+    };
 
+	
 	 return language;
 
 
