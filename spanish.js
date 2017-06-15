@@ -18,6 +18,10 @@ var translator = (function(language) {
 
 		};
 
+language.getSpanish = function() {
+        return spanish;
+    };
+
 	 return language;
 
 
