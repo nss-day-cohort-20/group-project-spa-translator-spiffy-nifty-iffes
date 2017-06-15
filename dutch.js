@@ -12,7 +12,7 @@ var translator = (function(language) {
 	language.printDutch = function(word) {
 		let output = document.getElementById("translatedText");
 		dutch.forEach(function(word){
-			output.innerHTML += `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
+			output.innerHTML = `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
 		})
 
 	};
