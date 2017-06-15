@@ -13,7 +13,7 @@ var translator = (function(language) {
 				let output = document.getElementById("translatedText");
 
 			spanish.forEach(function(word){
-				output.innerHTML += `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
+				output.innerHTML = `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
 			})
 
 		};

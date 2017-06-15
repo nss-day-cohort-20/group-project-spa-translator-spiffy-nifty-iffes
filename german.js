@@ -17,7 +17,7 @@ var translator = (function(language) {
 				let output = document.getElementById("translatedText");
 
 			german.forEach(function(word){
-				output.innerHTML += `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
+				output.innerHTML = `<p>${word.merry} ${word.christmas} ${word.and} ${word.happy} ${word.new} ${word.year}</p>`
 			})
 
 		};
