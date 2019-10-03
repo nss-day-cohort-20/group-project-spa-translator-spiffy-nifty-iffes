@@ -1,10 +1,10 @@
 var translator = (function(language) {
 	let dutch = [
 		{merry: "Vrolijk",
-		christmas: "Kerstmis",
-		and: "Kerstmis",
+		christmas: "Kerstfeest",
+		and: "en een",
 		happy: "gelukkig",
-		new: "nieuwe",
+		new: "nieuw",
 		year: "jaar"
 		}
 	];
